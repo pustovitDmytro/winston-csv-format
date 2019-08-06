@@ -22,7 +22,8 @@ test('Positive: default configuration', async function () {
         { action: 'DELETE_POST', user: 'e595b156-f526-5b94-ab76-c9fb610e286b' }
     ];
 
-    const expected = `e3c0b365-26fd-54fc-afd7-d844c1d47a95;CREATE_POST
+    const expected = `\
+e3c0b365-26fd-54fc-afd7-d844c1d47a95;CREATE_POST
 ;UPDATE_POST
 e3c0b365-26fd-54fc-afd7-d844c1d47a95;
 ;
