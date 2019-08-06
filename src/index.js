@@ -1,2 +1,2 @@
-import CSVFormatter from './CSVFormatter';
+import CSVFormatter from './Format';
 export default CSVFormatter;

@@ -4,7 +4,7 @@ export default function CSVFormatter(fields, options={}){
     const delim = options.delimiter || ';';
     return format.printf(logObject => {
         const data = fields.map(key => {
-            const value = info[key];
+            const value = logObject[key];
     
             return value === undefined ? '' : value;
         });
