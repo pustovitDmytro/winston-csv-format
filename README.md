@@ -1,5 +1,5 @@
 # winston-csv-format
-**winston-csv-format** boilerplate for creating npm packages.
+**winston-csv-format** writes winston logs in csv format.
 
 [![Version][badge-vers]][npm]
 [![Dependencies][badge-deps]][npm]
@@ -13,6 +13,9 @@
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contribute](#contribute)
+
+## Motivation
+If you're struggling to format your logs/reports as [.csv](https://en.wikipedia.org/wiki/Comma-separated_values) files (or prepare import to Excel or Google Spreadsheet), this package can be a cure. Now you can use all power of winston logger, formating your data as comma-separated values.
 
 ## Requirements
 To use library you need to have [node](https://nodejs.org) and [npm](https://www.npmjs.com) installed in your machine:
@@ -29,10 +32,31 @@ To install the library run following command
 ```
 
 ## Usage
+The package can be used as formatter alongside any [winston](https://github.com/winstonjs/winston) transport. Default export is a constructor function, which has 2 arguments: array of fields, and [options object](#contribute). Note that fields must match keys of logged objects:
 
 ```javascript
+import CSV from 'winston-csv-format';
+import { createLogger, transports } from 'winston';
+
+const csvHeaders = {
+    created    : 'Creation Date',
+    size       : 'Size',
+    status     : 'Status',
+};
+
+const logger = createLogger({
+    level      : 'info',
+    format     : CSV(['created', 'status' ], { delimiter: ',' }),
+    transports : [ new transports.Console() ]
+});
+
+logger.log('info', csvHeaders); // write headers
 
 ```
+## Configuration
+Next values can be configured as options:
+* **delimiter** - delimeter between fields (```';'``` by default)
+* **missed** - value, used when original value is missed in logged object (```empty string``` by default)
 
 ## Contribute
 
