@@ -2,7 +2,7 @@ import { format } from 'winston';
 
 export default function CSVFormatter(fields, options = {}) {
     const delim = options.delimiter || ';';
-    const missed = options.missed || ''
+    const missed = options.missed || '';
 
     return format.printf(logObject => {
         const data = fields.map(key => {
