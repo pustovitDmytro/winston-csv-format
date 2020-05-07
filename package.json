@@ -1,7 +1,7 @@
 {
   "name": "winston-csv-format",
   "version": "1.0.0",
-  "description": "boilerplate for creating npm packages",
+  "description": "writes winston logs in csv format",
   "main": "./lib",
   "scripts": {
     "build": "babel src --out-dir ./lib",
@@ -12,9 +12,21 @@
     "test:mocha": "mocha  --config .mocharc.json tests/**/*.js",
     "test:coverage": "MODE=test nyc mocha --config .mocharc.json tests/**/*.js",
     "coverage-check": "MODE=test nyc check-coverage",
-    "test": "npm run test:lint && npm run test:security && npm run test:coverage",
+    "test": "npm run test:lint && npm run test:security || npm run test:coverage",
     "semantic-release": "semantic-release"
   },
+  "keywords": [
+    "csv",
+    "logs",
+    "winston",
+    "formatter",
+    "parse",
+    "export",
+    "Excel",
+    "Google Spreadsheet",
+    "comma-separated values",
+    "reports"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/pustovitDmytro/winston-csv-format.git"
