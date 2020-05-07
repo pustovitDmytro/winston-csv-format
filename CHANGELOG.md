@@ -1,3 +1,5 @@
+# [1.1.0](https://github.com/pustovitDmytro/winston-csv-format/compare/v1.0.0...v1.1.0) (2020-05-07)
+
 # 1.0.0 (2019-08-06)
 
 
