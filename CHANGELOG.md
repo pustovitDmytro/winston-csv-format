@@ -1,3 +1,23 @@
+## [1.1.1](https://github.com/pustovitDmytro/winston-csv-format/compare/v1.1.0...v1.1.1) (2021-04-08)
+
+
+### Chore
+
+* (git) Add logs to gitignore ([d4d2077](https://github.com/pustovitDmytro/winston-csv-format/commit/d4d20770877eae7158ec33c45da90645f74dbbec))
+* adds commitlint ([38ded63](https://github.com/pustovitDmytro/winston-csv-format/commit/38ded63eb2a1a8e71b9a437d8b784a88dac47543))
+* adds target branch to semantic release ([c4fb3f1](https://github.com/pustovitDmytro/winston-csv-format/commit/c4fb3f1b9ec25425f49b3fd0a17cf68f64429fb4))
+* change extention of test files to .test.js ([d84ac03](https://github.com/pustovitDmytro/winston-csv-format/commit/d84ac0310ce9f503c9ec05be742f73e2764a1651))
+* pull last boilerplate ([b2611c2](https://github.com/pustovitDmytro/winston-csv-format/commit/b2611c21bf1d629fd7243f1af17640e346f3b3f1))
+* update semantic release rules ([a075dab](https://github.com/pustovitDmytro/winston-csv-format/commit/a075dabcdd82773ce2d2170e03a3a847f6551c02))
+
+### Fix
+
+* adds missing modules ([fc14911](https://github.com/pustovitDmytro/winston-csv-format/commit/fc1491119302e2f22ba6bc497d69812dcdd21493))
+
+### Upgrade
+
+* fixes npm audit ([91ba77f](https://github.com/pustovitDmytro/winston-csv-format/commit/91ba77f429634634fcb6392f376088207a72860c))
+
 # [1.1.0](https://github.com/pustovitDmytro/winston-csv-format/compare/v1.0.0...v1.1.0) (2020-05-07)
 
 # 1.0.0 (2019-08-06)
