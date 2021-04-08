@@ -4,3 +4,5 @@ etc/*.json
 lib/*
 coverage/*
 tmp/*
+logs/*
+*.log

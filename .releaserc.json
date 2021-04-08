@@ -1,24 +1,8 @@
 {
-    "branch": "master",
+    "branches": "master",
     "ci": false,
     "plugins": [
-        [
-            "@semantic-release/commit-analyzer",
-            {
-                "preset": "eslint",
-                "releaseRules": [
-                    { "tag": "Fix", "release": "patch" },
-                    { "tag": "Update", "release": "minor" },
-                    { "tag": "New", "release": "minor" },
-                    { "tag": "Breaking", "release": "major" },
-                    { "tag": "Docs", "release": "patch" },
-                    { "tag": "Upgrade", "release": "patch" }
-                ],
-                "parserOpts": {
-                    "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
-                }
-            }
-        ],
+        "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
         [
             "@semantic-release/changelog", {
@@ -28,8 +12,21 @@
             "@semantic-release/npm",
         [
             "@semantic-release/git", {
-                "message": "Chore: (release) add version ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+                "assets": ["README.md", "CHANGELOG.md", "package.json"],
+                "message": "Chore(release): add version ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
             }
         ]
-    ]
+    ],
+    "preset": "eslint",
+    "releaseRules": [
+        { "tag": "Fix", "release": "patch" },
+        { "tag": "Update", "release": "minor" },
+        { "tag": "New", "release": "minor" },
+        { "tag": "Breaking", "release": "minor" },
+        { "tag": "Docs", "release": "patch" },
+        { "tag": "Upgrade", "release": "patch" }
+    ],
+    "parserOpts": {
+        "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
+    }
 }
