@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/pustovitDmytro/winston-csv-format/compare/v1.2.0...v1.2.1) (2021-05-05)
+
+
+### Upgrade
+
+* Pin dependency winston to 3.3.3 ([9e92162](https://github.com/pustovitDmytro/winston-csv-format/commit/9e92162121f037c02d4a935cb6bbfc5b855daa03))
+
 # [1.2.0](https://github.com/pustovitDmytro/winston-csv-format/compare/v1.1.1...v1.2.0) (2021-05-05)
 
 
