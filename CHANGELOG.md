@@ -1,3 +1,20 @@
+## [1.2.2](https://github.com/pustovitDmytro/winston-csv-format/compare/v1.2.1...v1.2.2) (2021-05-25)
+
+
+### Chore
+
+* (tests) moves load to factory ([4acb941](https://github.com/pustovitDmytro/winston-csv-format/commit/4acb94181777f22e8fda16ea43b6a1cad3986629))
+* fixes spellcheck in bugreport ([7d754b6](https://github.com/pustovitDmytro/winston-csv-format/commit/7d754b605ed7fed3ea1a9c7d0d951a09806a1c37))
+* set myself as default assignee in pr ([0dcd0ce](https://github.com/pustovitDmytro/winston-csv-format/commit/0dcd0ce95b50a1e8a2fef91307f7fd8964314f68))
+* tests/entry.js module resolving ([c840f8b](https://github.com/pustovitDmytro/winston-csv-format/commit/c840f8b479234b7944b2d2708344ae24df231464))
+* Update dependency @rollup/plugin-commonjs to v19 ([bf29948](https://github.com/pustovitDmytro/winston-csv-format/commit/bf2994851b033e64744e381f5f566ca9eed0aef5))
+* update eslint ([4aac03c](https://github.com/pustovitDmytro/winston-csv-format/commit/4aac03c8db5f28d1d41838fc70e614df93e034d6))
+* update lock file ([4ffb878](https://github.com/pustovitDmytro/winston-csv-format/commit/4ffb878e544a8cbe68fa7b3c5908b8ccdf9e394f))
+
+### Upgrade
+
+* Bump browserslist from 4.16.3 to 4.16.6 ([e98f999](https://github.com/pustovitDmytro/winston-csv-format/commit/e98f999b24901857260fc3d255e900ac5c244b1a))
+
 ## [1.2.1](https://github.com/pustovitDmytro/winston-csv-format/compare/v1.2.0...v1.2.1) (2021-05-05)
 
 
