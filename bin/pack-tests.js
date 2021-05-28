@@ -22,7 +22,7 @@ const COPY = [
 const TEST_MODULES = [
     'mocha',
     'winston',
-    'uuid'
+    'winston-array-transport'
 ];
 
 const resolveIgnoreRegexp = `^(?!${TEST_MODULES.join('|')}).*$`;
