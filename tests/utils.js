@@ -1,5 +1,4 @@
 import path from 'path';
-import fse from 'fs-extra';
 import { assert } from 'chai';
 import { createLogger, transports } from 'winston';
 import ArrayTransport from 'winston-array-transport';
