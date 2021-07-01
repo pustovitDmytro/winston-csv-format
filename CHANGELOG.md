@@ -1,3 +1,39 @@
+## [1.2.4](https://github.com/pustovitDmytro/winston-csv-format/compare/v1.2.3...v1.2.4) (2021-07-01)
+
+
+### Chore
+
+* adds stabilityDays to renovate ([3b262bc](https://github.com/pustovitDmytro/winston-csv-format/commit/3b262bcefc6db318d2a7d9103f9f5f42315202d5))
+* export default in tests ([9d210e6](https://github.com/pustovitDmytro/winston-csv-format/commit/9d210e6f511a42a9c42f415ba6a64834346c11b0))
+* fix json in renovate ([8ad7928](https://github.com/pustovitDmytro/winston-csv-format/commit/8ad792825b2703e3159b65faf722eb43a1d9d421))
+* fix lint ([46faadb](https://github.com/pustovitDmytro/winston-csv-format/commit/46faadb1f9d7b6badf7bad1561ccfd152a8f8370))
+* fixes npm  audit ([c3beccd](https://github.com/pustovitDmytro/winston-csv-format/commit/c3beccdf1926d72dcf9b13cd153e37916f1a8d13))
+* fixes tests for windows ([d55d98f](https://github.com/pustovitDmytro/winston-csv-format/commit/d55d98f4610a37d8058c906d1718aa3e8d82472c))
+* integrate fossa ([b65e961](https://github.com/pustovitDmytro/winston-csv-format/commit/b65e961a5ae500b1b5fd12fce3436e71c1518e35))
+* integrate node-package-tester ([9d53bf3](https://github.com/pustovitDmytro/winston-csv-format/commit/9d53bf30d295368e7f1e925c18b00e48cc16014e))
+* Lock file maintenance ([fa0967a](https://github.com/pustovitDmytro/winston-csv-format/commit/fa0967ad061c695144aca2231a7df01baa9941e4))
+* Lock file maintenance ([459de5e](https://github.com/pustovitDmytro/winston-csv-format/commit/459de5e6e216c954000c2aca413cc9cdc99bf05b))
+* Lock file maintenance ([3291a21](https://github.com/pustovitDmytro/winston-csv-format/commit/3291a2144ee143dc327f6fb4a8b82e62e07b1c1f))
+* removes unused devDependencies ([ddb100a](https://github.com/pustovitDmytro/winston-csv-format/commit/ddb100aa634ab2e1d2695de73d9aeb4a7795ccce))
+* set YARGS_MIN_NODE_VERSION 10 ([9b6bef9](https://github.com/pustovitDmytro/winston-csv-format/commit/9b6bef9d89f8f0c958ee1fe60f20475dd20c8276))
+* Update dependency eslint-plugin-regexp to ^0.12.0 ([babc607](https://github.com/pustovitDmytro/winston-csv-format/commit/babc6072ffaf2bdc3d33f21b35da613e9feaad43))
+* Update dependency eslint-plugin-unicorn to v33 ([bfa00ff](https://github.com/pustovitDmytro/winston-csv-format/commit/bfa00ff354dfb9ffe717e9a36f7a938d44b32611))
+* Update dependency eslint-plugin-unicorn to v33 ([f9a2e0d](https://github.com/pustovitDmytro/winston-csv-format/commit/f9a2e0d0d340e3da2593e0e4c0666ab360b8f246))
+* Update dependency glob-parent to 5.1.2 [SECURITY] ([c957512](https://github.com/pustovitDmytro/winston-csv-format/commit/c957512cf496d9b99e2278b44b6bb9da545f57a8))
+* Update dependency glob-parent to 5.1.2 [SECURITY] ([d996348](https://github.com/pustovitDmytro/winston-csv-format/commit/d996348d97ab67a33a1f211776ac5d43d1062f2a))
+* Update dependency mocha to v9 ([93b7a17](https://github.com/pustovitDmytro/winston-csv-format/commit/93b7a1783ea97a7bcd94d570ef33b61314c93746))
+* update eslint ([6b174b1](https://github.com/pustovitDmytro/winston-csv-format/commit/6b174b184a792fc282ef3228079f23fa81f2bcb5))
+* update eslint-config-incredible ([2f39edb](https://github.com/pustovitDmytro/winston-csv-format/commit/2f39edb6b44795918e8650be3e727b8e7abb61b7))
+* update eslint-config-incredible ([58c31d2](https://github.com/pustovitDmytro/winston-csv-format/commit/58c31d295fa2df7cb3dceda8db6a417144a4b1c3))
+
+### Docs
+
+* fixes fossa badge ([3e59b45](https://github.com/pustovitDmytro/winston-csv-format/commit/3e59b45e0e79d70aaf1926be76929767b0d39af1))
+
+### Fix
+
+* set babel target node version to 10 ([f736568](https://github.com/pustovitDmytro/winston-csv-format/commit/f73656838a20d11da6680579cfccc24a9f4a1201))
+
 ## [1.2.3](https://github.com/pustovitDmytro/winston-csv-format/compare/v1.2.2...v1.2.3) (2021-05-25)
 
 
