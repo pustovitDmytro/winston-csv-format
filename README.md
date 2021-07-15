@@ -13,7 +13,7 @@ writes [winston][w-main] logs in [csv][csv] format.
 [![Scrutinizer][scrutinizer-badge]][scrutinizer-url]
 
 [![Dependencies][badge-deps]][npm]
-[![Vulnerabilities][badge-vuln]](https://snyk.io/)
+[![Security][snyk-badge]][snyk-url]
 [![Build Status][tests-badge]][tests-url]
 [![Coverage Status][badge-coverage]][url-coverage]
 
@@ -92,6 +92,9 @@ Make the changes to the code and tests. Then commit to your branch. Be sure to f
 [badge-lic]: https://img.shields.io/github/license/pustovitDmytro/winston-csv-format.svg
 [badge-coverage]: https://coveralls.io/repos/github/pustovitDmytro/winston-csv-format/badge.svg?branch=master
 [url-coverage]: https://coveralls.io/github/pustovitDmytro/winston-csv-format?branch=master
+
+[snyk-badge]: https://snyk-widget.herokuapp.com/badge/npm/winston-csv-format/badge.svg
+[snyk-url]: https://snyk.io/advisor/npm-package/winston-csv-format
 
 [tests-badge]: https://img.shields.io/circleci/build/github/pustovitDmytro/winston-csv-format
 [tests-url]: https://app.circleci.com/pipelines/github/pustovitDmytro/winston-csv-format
