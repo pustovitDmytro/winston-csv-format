@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/pustovitDmytro/winston-csv-format/compare/v2.0.0...v2.0.1) (2021-07-24)
+
+
+### Docs
+
+* adds Migration Guide ([22638e6](https://github.com/pustovitDmytro/winston-csv-format/commit/22638e602b7929af5094a9d5f7416c3c9d7e56bb))
+
 # [2.0.0](https://github.com/pustovitDmytro/winston-csv-format/compare/v1.2.4...v2.0.0) (2021-07-15)
 
 

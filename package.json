@@ -1,6 +1,6 @@
 {
   "name": "winston-csv-format",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "writes winston logs in csv format",
   "main": "./lib",
   "scripts": {
