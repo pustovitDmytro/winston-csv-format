@@ -79,6 +79,9 @@ Next values can be configured as options:
 [w-transports]: https://github.com/winstonjs/winston/blob/master/docs/transports.md
 [csv]: https://en.wikipedia.org/wiki/Comma-separated_values
 
+## Migration Guide
+
+Check [Migration Guide](./MIGRATION.md) to upgrade the next major version. Upgrade to minor/patch versions should happen without additional interventions. See detailed [Changelog](./CHANGELOG.md) for a list of changes.
 ## Contribute
 
 Make the changes to the code and tests. Then commit to your branch. Be sure to follow the commit message conventions. Read [Contributing Guidelines](.github/CONTRIBUTING.md) for details.
