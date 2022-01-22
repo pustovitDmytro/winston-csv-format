@@ -3,6 +3,8 @@
         "config:base"
     ],
 
+    "timezone": "Europe/Kiev",
+
     "rangeStrategy": "replace",
     "ignoreUnstable": true,
     
@@ -15,11 +17,11 @@
     "dependencyDashboardAutoclose": true,
 
     "lockFileMaintenance": {
-       "enabled": true,
-       "automerge": true,
-       "extends": [
-            "schedule:monthly"
-       ]
+        "enabled": true,
+        "automerge": true,
+        "schedule": [
+            "before 7:00 am every 10 days starting on the 5th day"
+        ]
     },
 
     "circleci": {
@@ -34,7 +36,8 @@
 
     "vulnerabilityAlerts": {
         "labels": ["dependencies", "security"],
-        "enabled": true
+        "enabled": true,
+        "automerge": true
     },
 
     "stabilityDays": 3,
@@ -43,10 +46,28 @@
     "packageRules": [
         {
             "matchSourceUrlPrefixes": ["https://github.com/pustovitDmytro/"],
-            "groupName": "pustovitDmytro packages"
+            "groupName": "pustovitDmytro's packages",
+            "commitBodyTable": true
         },
         {
             "matchDepTypes": ["devDependencies"],
+            
+            "groupName": "devDependencies (non-major)",
+            "groupSlug": "dev-dependencies",
+            "lockFileMaintenance": {
+                "enabled": true
+            },
+            "commitBodyTable": true,
+            "rangeStrategy": "bump",
+            "semanticCommitType": "Chore",
+            "schedule": [
+                "before 7:00 am every 10 days starting on the 1st day"
+            ],
+            "automerge": true
+        },
+        {
+            "matchDepTypes": ["devDependencies"],
+            "matchUpdateTypes": ["major"],
             "automerge": true,
             "semanticCommitType": "Chore"
         },

@@ -31,14 +31,14 @@ writes [winston][w-main] logs in [csv][csv] format.
 If you're struggling to format your logs/reports as [.csv][csv] files (or prepare import to Excel or Google Spreadsheet), this package can be a cure. Now you can use all power of [winston][w-main] logger, formating your data as comma-separated values.
 
 ## Requirements
-[![Platform Status][appveyor-badge]][appveyor-url]
+[![Platform Status][node-ver-test-badge]][node-ver-test-url]
 
 To use library you need to have [node](https://nodejs.org) and [npm](https://www.npmjs.com) installed in your machine:
 
 * node `>=10`
 * npm `>=6`
 
-Package is [continuously tested][appveyor-url] on darwin, linux, win32 platforms. All active and maintenance [LTS](https://nodejs.org/en/about/releases/) node releases are supported.
+Package is [continuously tested][node-ver-test-url] on darwin, linux and win32 platforms. All active and maintenance [LTS](https://nodejs.org/en/about/releases/) node releases are supported.
 
 ## Installation
 
@@ -89,7 +89,7 @@ Make the changes to the code and tests. Then commit to your branch. Be sure to f
 [npm]: https://www.npmjs.com/package/winston-csv-format
 [github]: https://github.com/pustovitDmytro/winston-csv-format
 [coveralls]: https://coveralls.io/github/pustovitDmytro/winston-csv-format?branch=master
-[badge-deps]: https://img.shields.io/david/pustovitDmytro/winston-csv-format.svg
+[badge-deps]: https://img.shields.io/librariesio/release/npm/winston-csv-format.svg
 [badge-vuln]: https://img.shields.io/snyk/vulnerabilities/npm/winston-csv-format.svg?style=popout
 [badge-vers]: https://img.shields.io/npm/v/winston-csv-format.svg
 [badge-lic]: https://img.shields.io/github/license/pustovitDmytro/winston-csv-format.svg
@@ -126,8 +126,8 @@ Make the changes to the code and tests. Then commit to your branch. Be sure to f
 [npm-size-badge]: https://img.shields.io/bundlephobia/min/winston-csv-format
 [npm-size-url]: https://bundlephobia.com/result?p=winston-csv-format
 
-[appveyor-badge]: https://ci.appveyor.com/api/projects/status/9ok28mb006a6welc/branch/master?svg=true
-[appveyor-url]: https://ci.appveyor.com/project/pustovitDmytro/winston-csv-format/branch/master
+[node-ver-test-badge]: https://github.com/pustovitDmytro/winston-csv-format/actions/workflows/npt.yml/badge.svg?branch=master
+[node-ver-test-url]: https://github.com/pustovitDmytro/winston-csv-format/actions?query=workflow%3A%22Node.js+versions%22
 
 [fossa-badge]: https://app.fossa.com/api/projects/custom%2B24828%2Fwinston-csv-format.svg?type=shield
 [fossa-url]: https://app.fossa.com/projects/custom%2B24828%2Fwinston-csv-format?ref=badge_shield
