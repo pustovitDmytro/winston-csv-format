@@ -1,3 +1,20 @@
+## [2.0.3](https://github.com/pustovitDmytro/winston-csv-format/compare/v2.0.2...v2.0.3) (2022-02-28)
+
+
+### Chore
+
+* fixes some npm audit vulnerabilities (#60) ([a2bb84b](https://github.com/pustovitDmytro/winston-csv-format/commit/a2bb84bd3d82299b256ebfc5293b495907650369)), closes [#60](https://github.com/pustovitDmytro/winston-csv-format/issues/60)
+* fixes some npm audit vulnerabilities (#61) ([f695d18](https://github.com/pustovitDmytro/winston-csv-format/commit/f695d18a197e911fa954ed0d876bbf0d5e81f269)), closes [#61](https://github.com/pustovitDmytro/winston-csv-format/issues/61)
+* Lock file maintenance (#49) ([8222546](https://github.com/pustovitDmytro/winston-csv-format/commit/82225461c45d9561150c3f5251ea657f2b0bf2eb)), closes [#49](https://github.com/pustovitDmytro/winston-csv-format/issues/49)
+* Lock file maintenance (#57) ([d623e46](https://github.com/pustovitDmytro/winston-csv-format/commit/d623e46342df28d0d19286b1e128df7e81a46b13)), closes [#57](https://github.com/pustovitDmytro/winston-csv-format/issues/57)
+* Lock file maintenance (#63) ([62a54cd](https://github.com/pustovitDmytro/winston-csv-format/commit/62a54cd06cb189d6d83085912642de08c36d229d)), closes [#63](https://github.com/pustovitDmytro/winston-csv-format/issues/63)
+* Update dependency nanoid to 3.1.31 [SECURITY] (#56) ([107d4e9](https://github.com/pustovitDmytro/winston-csv-format/commit/107d4e9ec2084936dad738ea4832b5c7597ee4d1)), closes [#56](https://github.com/pustovitDmytro/winston-csv-format/issues/56)
+* Update dependency node-fetch to 2.6.7 [SECURITY] (#59) ([e94c7f3](https://github.com/pustovitDmytro/winston-csv-format/commit/e94c7f38066232d9447c7125c043bea365b7e303)), closes [#59](https://github.com/pustovitDmytro/winston-csv-format/issues/59)
+
+### Docs
+
+* help Ukraine 🇺🇦 ([c54b0c1](https://github.com/pustovitDmytro/winston-csv-format/commit/c54b0c1b8cf4acbd2c121b93335291f2e92eaeef))
+
 ## [2.0.2](https://github.com/pustovitDmytro/winston-csv-format/compare/v2.0.1...v2.0.2) (2022-01-22)
 
 
