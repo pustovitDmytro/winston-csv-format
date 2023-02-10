@@ -58,7 +58,7 @@
     "@commitlint/lint": "^13.0.0",
     "@semantic-release/changelog": "^6.0.0",
     "@semantic-release/git": "^10.0.0",
-    "babel-plugin-module-resolver": "^4.0.0",
+    "babel-plugin-module-resolver": "^5.0.0",
     "chai": "^4.2.0",
     "chance": "^1.0.18",
     "conventional-changelog-eslint": "^3.0.1",
